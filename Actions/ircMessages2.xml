@@ -1,0 +1,55 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="addFlags:DLC_Player_IRC_Authenticated"/>
+        <RunFunction FunctionName="playCustomSong:Music/silence.ogg"/>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="1.0">oh shit, hold on</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="1.1">someone just hacked snarium's proxy</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="1.2">!ATTACHMENT:link#%##PLAYERNAME# Workstation#%##PLAYER_IP#</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="5.2">Did they forget to clean up their logs?</AddIRCMessage>
+        <RunFunction DelayHost="friendgroup" Delay="5.5" FunctionName="playCustomSong:Music/Bloodline.ogg"/>
+        <LaunchHackScript Filepath="HackerScripts/friendGroupInvite.txt" DelayHost="friendgroup" Delay="5.5" SourceComp="friendgroup" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    </Instantly>
+    <OnConnect target="friendgroup">
+        <ChangeAlertIcon Target="friendgroup" Type="irchub"/>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="5.2">hey @#PLAYERNAME#! welcome to our little friend hangout</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="8.0">sorry if i scared you with that, haha</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="11.6">Scared them with what?</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="14.0">i hacked them and launched a forkbomb</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="17.0">it's ok, theyre a friend of snarium so we dont have to worry</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="friendgroup" Delay="21.0">soo what happened to snarium?</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="26.2">we honestly dont know. hes been missing for a while now and before he completely dissappeared he spammed this irc and left a link to a strange server</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="30.2">that server has some tight security, you get traced in like 10 seconds and theres 5 ports required to open</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="33.0">take a look at it</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="33.5">!ATTACHMENT:link#%#ouhauhailuehskdjhc#%#120.66.17.2</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="37">also @Timed, i connected to snarium's proxy just as it was being hacked so i caught them in the middle of hacking</AddIRCMessage>
+    </OnConnect>
+    <OnConnect target="strokeserv">
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="2.0">btw @#PLAYERNAME#, forgot to ask - where did you get snarium's proxy from? from what i know snarium hasn't shared his proxy servers anywhere outside this irc, and that was by accident</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="friendgroup" Delay="6.0">i found it from his old pc, the logs said he transefered all his data from that pc to the proxy</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="9.0">holy shit</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="13.0">can you share it here?</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="friendgroup" Delay="16.0">!ATTACHMENT:link#%#SnariumPC#%#194.36.47.37</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="19.0">thanks, this'll help us a ton</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="24.0">meanwhile, you can look around snarium's proxy, theres a bunch of intresting stuff on there you might wanna check out</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="28.0">oh, and lastly, here's snarium's current pc</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="29.0">!ATTACHMENT:link#%#SnariumsSolar-Station#%#166.72.88.2</AddIRCMessage>
+    </OnConnect>
+    <OnConnect target="snariumCurrPC">
+        <SaveGame DelayHost="friendgroup" Delay="2.0"/>
+        <RunFunction FunctionName="addFlags:CSEC_Member"/>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="8.0">Here's something intresting i found: if you run a memory dump on Snarium's old PC, in files you can see a file thats just random characters and the IP Snarium sent us before leaving.</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="12.0">There's also our IRC's IP, our asset server's IP and an IP to a really weird site...</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="14.0">!ATTACHMENT:link#%#UncannyValley.net#%#115.66.2.9</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="17.0">This is kinda important, so I'm pinging @channel</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="18.5">whoa</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="20.0">btw, forgot to mention - @#PLAYERNAME#, get some stuff from our asset server, i made you an acc</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="21.0">!ATTACHMENT:account#%#friendgroupAssets#%#192.69.1.5#%##PLAYERNAME##%#nasty</AddIRCMessage>
+    </OnConnect>
+    <OnConnect target="uncannyValley">
+        <RunFunction FunctionName="playCustomSong:Music/darkambiance.ogg"/>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="18.5">hey @#PLAYERNAME#, this might come off as a weird request, but...</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="21.2">i want you to join that group, get in, investigate and leave. snarium is without a doubt connected to it and we can definetly find out more if we get inside the group.</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="23.5">You do realise Snarium joining that group could be the reason this all happened!?</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="25.0">i never told you snarium joined the group, neither is that confirmable</AddIRCMessage>
+    </OnConnect>
+</ConditionalActions>

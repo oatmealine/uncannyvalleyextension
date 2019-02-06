@@ -1,0 +1,8 @@
+SnariumPC:
+WebWorm & eosDeviceScan
+Snarium's Proxy:
+Decypher, WebWorm, FTPSprint & eosDeviceScan
+CurrSnariumPc:
+Decypher, WebWorm, FTPSprint, eosDeviceScan & RTSPCrack (maybe DECHead if player investigates enough)
+UncannyValley.net
+Decypher, WebWorm, FTPSprint, eosDeviceScan, RTSPCrack & TorrentStreamInject

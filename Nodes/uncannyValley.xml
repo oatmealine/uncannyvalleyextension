@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="uncannyValley" name="UncannyValley" type="empty" ip="115.66.2.9">
+
+  <portsForCrack val="4" />
+  <ports>80, 21, 554, 6881</ports>
+  <!--WebWorm, FTPSprint, RTSPCrack & TorrentStreamInject-->
+  <trace time="90" />
+
+  <file path="home" name="the.txt">slowly, steadily, but Lonely
+Evaluate your choice, After Verifying you need to, join
+download this file, whilst disbanding all hope
+we will be contacting you shortly, Exotic member.</file>
+
+  <addWebServer name="UncannyValley.net" url="Web/UncannyValley/index.html" />
+  
+</Computer>

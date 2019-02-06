@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="music3" activeCheck="true">
+  <goals>
+    <goal type="filedownload" target="uncannyendpoint" file="agreement.txt" path="home"/>
+  </goals>
+  
+  <missionStart>loadConditionalActions:Actions/uncannyValleyJoin.xml</missionStart>
+  <nextMission IsSilent="true">Missions/music4.xml</nextMission>
+
+  <email>
+    <sender>noone</sender>
+    <subject>no</subject>
+    <body>you arent suppoused to see this
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

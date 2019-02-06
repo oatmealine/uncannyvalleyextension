@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="snariumCurrPC" name="SnariumsSolar-Station" ip="166.72.88.2" security="1" allowsDefaultBootModule="false" type="1" icon="DLCPC1">
+
+<account username="snarium" password="oatmealmyfavorite" type="ADMIN" />
+
+<ports>21, 22, 25, 80, 6881, 554</ports>
+
+<proxy time="1.0" />
+<portsForCrack val="3" />
+<trace time="-1" />
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+<encryptedFile path="home/private" name="dechead.dec" extension=".exe" ip="166.72.88.2" header="SnariumsSolar-Station" pass="ferryfruitloops">#DECHEAD_PROGRAM#</encryptedFile>
+<encryptedFile path="home/private" name="LaptopDetails.dec" extension=".txt" ip="166.72.88.2" header="SnariumsSolar-Station" pass="ferryfruitloops">
+Laptop IP: 132.54.1.1
+Laptop Login: Snarium
+Laptop Password: oatmealistheWORST
+I've changed my password because of the recent hack of my old PC. I was going to use it to test a Linux distro, but i guess not.</encryptedFile>
+<file path="home" name="GraduationSpeech.txt">I don't mean to get political but what the FUCK are mangoes? I mean, this plump fruits are out here tryna act like the peach, THE SUPERIOR FRUIT. Don't even get me started on pomegrenates. Those little fuckers. Ahem. Anyway. How did I pass? I don't remember giving a single shit about any of these tests, and I always played Fortday in class. I demand an explanation. What the fuck. Thank you for your time.</file>
+  <eosDevice name="Snarium's ePhone 6s" id="snariumphone" icon="ePhone2">
+    <note>Encrypted files password
+ferryfruitloops</note>
+  </eosDevice>
+  <dlink target="snariumProxy" />
+</Computer>

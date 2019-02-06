@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SnariumPC" name="SnariumPC" ip="194.36.47.37" security="0" allowsDefaultBootModule="false" type="1" >
+
+<account username="snarium" password="oatmealmyfavorite" type="ADMIN" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="-1" />
+<portsForCrack val="0" />
+<trace time="-1" />
+
+<file path="log/transfer" name="!!Transfer.log">TranSferEnd(tm) - putting the end to all transfer difficulties!
+
+Connecting to TranSferEnd servers...done
+Finding given ID value.....done
+
+----
+
+Transfer Amount:
+  home/      74MB
+  bin/       63MB
+Exclude:
+  home/archive
+Delete Files?: true
+
+---
+
+IP Address: 178.32.83.55:22
+Est. Amount Of Time: 73min.
+
+----
+
+Packing all files.............done
+Deleting old files..........done
+Connecting to IP Address...done (300)
+
+Sending file [100% / 100% (137MB)]
+
+Took 71 minutes 12 seconds.
+Operation ended with code 0
+</file>
+<file path="home/archive" name="WebWorm.exe">#WEB_CRACK#</file>
+<file path="home/archive" name="WebWorm.txt">Hacks HTTP ports. Not much else to it</file>
+<file path="home/archive" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<file path="home/archive" name="eosDeviceScan.txt">Gets all eOS devices linked to a computer. Basically like scan for phones</file>
+<file path="home/archive" name="log263748.txt">[Snarium] I'm probs gonna transfer the files now, wish me luck
+[Tecso] --I HOPE YOUR PC DIES IN A FIRE FUCKER-- i mean good luck
+[Tecso] wait why does formatting not work
+[Tecso] fuck
+</file>
+  <Memory>
+    <Commands>
+      <Command>del /bin/transferend.exe</Command>
+      <Command>transferend -h</Command>
+    </Commands>
+    <Data>
+      <Block>
+ohuannnnnil uweywou 187.55.2.6 f allowsDefaultBootModulea 
+sd  fweoieawonawiswfuauo suo dsyuas nyas nywnng192.69.1.5 192.69.1.5yngyengg gnfgoisfuasdf as 
+120.66.17.2h jaaalakalhhlkhklhklhklkllhklkhllhklhlk
+b115.66.2.9     115.66.115.66.2.92.9 115.66.2.9 115.66.2.9 115.66.2.9 115.66.2.9 vakmmmmmmmmmmmmmmm
+
+      </Block>
+    </Data>
+  </Memory>
+</Computer>

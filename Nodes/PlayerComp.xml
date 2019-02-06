@@ -1,0 +1,98 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# Workstation" security="3" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="password" />
+<account username="#PLAYERNAME#" password="macrosoftrulez" type="ADMIN" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="-1" />
+<portsForCrack val="2" />
+<trace time="100" />
+
+<file path="home/NewFolder15" name="IRC_Log:638472+(9435)">[#PLAYERNAME#] i remember that once fucking time when i just
+[#PLAYERNAME#] how do i explain this
+[#PLAYERNAME#] i was in a forest with mom because she forced me there like usual
+[#PLAYERNAME#] and there was a bear there who attacked me once
+[#PLAYERNAME#] instead of defending i just did a big fucking banshee scream, ran off and started trying to climb a tree
+[#PLAYERNAME#] now you know me i cant climb anything
+[#PLAYERNAME#] i fell right on the bear's head and ran away
+[#PLAYERNAME#] i think he was knocked out because of that?? i didnt really look i was just running the fuck away
+[Snarium] That... what
+[Snarium] No really what the fuck
+
+Archived Via : http://Bash.org</file>
+<file path="home/NewFolder26" name="IRC_Log:638264+(14253)">[#PLAYERNAME#] hey did you know about this one cool trick
+[Snarium] What trick
+[#PLAYERNAME#] basically you do /kick [ip address] and your ip address gets kicked out of the room
+[#PLAYERNAME#] so youre like in a quantum state of being in the room and not
+[Snarium] /kick 194.36.47.37
+[Snarium] Did you just make me leak my fucking ip address
+[#PLAYERNAME#] BAHAHAHAH
+[Snarium] I should've known better
+
+Archived Via : http://Bash.org</file>
+<file path="home/NewFolder03" name="IRC_Log:93244+(88365)">[#PLAYERNAME#] 1, 2, oatmeal
+[#PLAYERNAME#] kirby is a pink guy
+[#PLAYERNAME#] 1, 2, oatmeal
+[#PLAYERNAME#] because kirby's very cute
+[Snarium] I don't get it, is this some sorta shit song i haven't heard yet?
+[#PLAYERNAME#] so you mean
+[Snarium] What?
+[#PLAYERNAME#] you mean you dont understand 1 2 oatmeal
+[Snarium] Yeah??
+[#PLAYERNAME#] i've been trying to give you simpleflips jokes all my life
+[#PLAYERNAME#] and you mean you didnt understand any of these
+Snarium is now offline.
+[#PLAYERNAME#] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+Archived Via : http://Bash.org</file>
+<file path="home/NewFolder03" name="IRC_Log:93244+(88365)">[#PLAYERNAME#] oi now ya fohking get it maite
+[#PLAYERNAME#] ya spastik kunt
+[#PLAYERNAME#] fohking piece of shiht
+[Snarium] I FACK YORE MOM MOTHERFACKER
+[Snarium] FACK YU I FACK YOR MOM PUSSY
+[#PLAYERNAME#] we need to stop this now
+[Snarium] I agree
+
+Archived Via : http://Bash.org</file>
+<file path="home/NewFolder32" name="IRC_Log:9834+(12238)">[#PLAYERNAME#] ASS
+[Snarium] What
+[#PLAYERNAME#] AAAAAAAAAAA
+[#PLAYERNAME#] A
+[#PLAYERNAME#] A
+[#PLAYERNAME#] A
+[#PLAYERNAME#] A
+[#PLAYERNAME#] vA
+[#PLAYERNAME#] vv
+[#PLAYERNAME#] A
+[#PLAYERNAME#] AA
+[#PLAYERNAME#] v
+[Snarium] Jesus christ what happened
+[#PLAYERNAME#] i forgot to remove the legos from the floor now my leg is in extreme pain and i need hospitalisation right now
+
+Archived Via : http://Bash.org</file>
+<file path="home" name="all_my_life_motivation.txt">[#PLAYERNAME#] i want to introduce you to my religion
+[Snarium] What's your religion
+#PLAYERNAME# sent file fatyosh.jpg
+[Snarium] I'm interested
+
+Archived Via : http://Bash.org</file>
+
+<!-- Debug EXE's
+<file path="bin" name="ESequencer.exe">#EXT_SEQUENCER_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file> 
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file> 
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file> 
+<file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file> 
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file> 
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file> 
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file> 
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file> 
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file> 
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file> 
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+-->
+
+<customthemefile path="sys" name="Core_x-server.sys" themePath="Themes/CelesteCore.xml"/>
+</Computer>

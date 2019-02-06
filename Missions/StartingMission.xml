@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <goal type="getadmin" target="SnariumPC"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission IsSilent="true">Missions/music1.xml</nextMission>
+
+  <email>
+    <sender>noone</sender>
+    <subject>no</subject>
+    <body>you arent suppoused to see this
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

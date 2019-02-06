@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="uncannycomp1" name="UncannyValley Unload Server 1" type="empty">
+
+  <portsForCrack val="3" />
+  <ports>22, 80, 6881</ports>
+  <trace time="-1" />
+  
+<LogoDaemon Name="Uncanny Valley" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="Logo.png">Uncanny Valley</LogoDaemon>
+
+</Computer>

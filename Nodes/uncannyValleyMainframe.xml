@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="uncannymainframe" name="UncannyValley Mainframe" type="empty">
+
+  <portsForCrack val="5" />
+  <ports>22, 80, 6881, 554, 21, 443, 211</ports>
+  <trace time="-1" />
+  
+  <file path="home" name="hello.txt">nothing here yet but enjoy the Wacky Effects™</file>
+
+<LogoDaemon Name="Uncanny Valley" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="Logo.png">Uncanny Valley</LogoDaemon>
+
+</Computer>

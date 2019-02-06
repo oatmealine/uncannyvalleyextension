@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <CrashComputer TargetComp="playerComp" CrashSource="uncannycomp1" />
+  </Instantly>
+  <OnConnect target="playerComp">
+    <SwitchToTheme ThemePathOrName="Themes/SimpleBlack.xml" FlickerInDuration="1.0" />
+    <RunFunction FunctionName="playCustomSong:Music/CompleteDomination.ogg"/>
+    <ShowNode DelayHost="friendgroup" Delay="2.6" Target="Addition" />
+  </OnConnect>
+
+</ConditionalActions>

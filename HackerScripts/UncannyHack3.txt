@@ -1,0 +1,13 @@
+config playerComp [SOURCE_COMP] 0 $#%#$
+
+delay 3.4 $#%#$
+
+writel #PLAYERNAME#, I think we need to nuke the computer that's hacking you ATM in order to stop this! $#%#$
+
+delay 3.9 $#%#$
+
+delay 2.8 $#%#$
+
+writel You should look in the /logs folder for the hacker's IP. Be quick or you'll get traced! $#%#$
+
+delay 4.5 $#%#$

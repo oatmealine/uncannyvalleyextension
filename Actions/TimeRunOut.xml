@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/silence.ogg"/>
+    <SwitchToTheme ThemePathOrName="Themes/SimpleBlack.xm" FlickerInDuration="0" />
+    <HideNode TargetComp="uncannymainframe" />
+    <ChangeIP TargetComp="uncannymainframe" NewIP="#RANDOM_IP#" />
+    <ChangeIP TargetComp="uncannycomp1" NewIP="#RANDOM_IP#" />
+    <KillExe ExeName="ESequencer" />
+    <CrashComputer TargetComp="playerComp" CrashSource="uncannycomp1" delayHost="friendgroup" delay="0.1"/>
+  </Instantly>
+  <OnConnect target="playerComp">
+    <SwitchToTheme ThemePathOrName="Themes/SimpleBlack.xml" FlickerInDuration="1.0" />
+    <RunFunction FunctionName="playCustomSong:Music/CompleteDomination.ogg"/>
+  </OnConnect>
+
+</ConditionalActions>

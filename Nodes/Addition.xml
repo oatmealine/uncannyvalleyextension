@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Addition" name="Addition" type="3" security="2" ip="93.22.1.2">
+
+<firewall level="4" solution="PLUS" additionalTime="0.1"/>
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 80</ports>
+  <file path="home" name="offset.txt">__.__.__._
+18.12.50.1
+Attempt cleverness. Study names. -UncannyValley</file>
+
+<!-- the solution to this is:
+take the server's ip (93.22.1.2)
+add 18.12.50.1 to it (111.34.51.3)
+multiply each field by the ones in offset2 (6, 4, 4, 2) (666.136.204.6)
+connect to that
+-->
+
+</Computer>

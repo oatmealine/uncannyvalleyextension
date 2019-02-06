@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="music3" activeCheck="true">
+  <goals>
+    <goal type="filedownload" target="testNode" file="example.txt" path="home"/>
+  </goals>
+  <!--<missionStart val="0">loadConditionalActions:Actions/.xml</missionStart>-->
+
+  <missionStart>loadConditionalActions:Actions/uncannyValleyJoin2.xml</missionStart>
+  <nextMission>NONE</nextMission>
+
+<email>
+    <sender>Unknown</sender>
+    <subject>None</subject>
+    <body>Hello, #PLAYERNAME#
+You've been accepted in the group.
+We will be contacting you shortly for newer instructions.
+
+This is also the end of this extension's preview, so you can exit now. I guess.
+There's no proper ending ATM so have this.
+Give feedback in the Extensions Discord! -Fox</body>
+<attachments>
+    </attachments>
+</email>
+</mission>

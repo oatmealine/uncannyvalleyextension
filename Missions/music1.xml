@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="music1" activeCheck="true">
+  <goals>
+    <goal type="getadmin" target="snariumProxy"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd>
+  -->
+<missionStart>loadConditionalActions:Actions/ircMessages1.xml</missionStart>
+  <nextMission IsSilent="true">Missions/music2.xml</nextMission>
+
+  <email>
+    <sender>noone</sender>
+    <subject>no</subject>
+    <body>you arent suppoused to see this
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

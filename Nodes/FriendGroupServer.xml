@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="friendgroup" name="WeDontHaveAName.com" type="empty" ip="187.55.2.6">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25</ports>
+  <trace time="50" />
+
+<DHSDaemon groupName="We Don't Have A Name.com" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="161, 255, 255" allowContractAbbandon="false"> 
+<agent name="#PLAYERNAME#" pass="nasty" color="209,74,48"/> 
+<agent name="Snarium" pass="oatmeal" color="112,198,255"/> 
+<agent name="rela-y" pass="oijadoasdad" color="58,202,146"/> 
+<agent name="Timed" pass="oijadoaadad" color="106,92,190"/> 
+</DHSDaemon>
+
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+</Computer>

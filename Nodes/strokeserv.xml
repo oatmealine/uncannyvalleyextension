@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="strokeserv" name="ouhauhailuehskdjhc" type="empty" ip="120.66.17.2">
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 6881, 80</ports>
+  <trace time="8" />
+  
+</Computer>

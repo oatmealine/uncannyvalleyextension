@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="friendgroupAssets" name="WeDontHaveANameAssets" ip="192.69.1.5" security="5" allowsDefaultBootModule="false" type="1" >
+
+<account username="#PLAYERNAME#" password="nasty" type="ADMIN" />
+
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
+<file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file> 
+<customthemefile path="sys" name="Summit_x-server.sys" themePath="Themes/CelesteSummit.xml"/>
+</Computer>

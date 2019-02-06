@@ -1,0 +1,16 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/silence.ogg"/>
+    <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="friendgroup" Delay="1.5"/>
+    <StartScreenBleedEffect AlertTitle="WELCOME" CompleteAction="Actions/reboot.xml" TotalDurationSeconds="3.0" DelayHost="friendgroup" Delay="1.0">Enjoy your stay</StartScreenBleedEffect>
+    <HideAllNodes DelayHost="friendgroup" Delay="2.3"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home/NewFolder26" FileName="IRC_Log:638264+(14253)" DelayHost="friendgroup" Delay="2.2"/>
+  </Instantly>
+  <OnConnect target="playerComp">
+    <SwitchToTheme ThemePathOrName="Themes/SimpleBlack.xml" FlickerInDuration="1.0" />
+    <RunFunction FunctionName="playCustomSong:Music/SatanicRites.ogg"/>
+    <ShowNode DelayHost="friendgroup" Delay="2.6" Target="Addition" />
+  </OnConnect>
+
+</ConditionalActions>

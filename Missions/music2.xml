@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="music2" activeCheck="true">
+  <goals>
+    <goal type="filedownload" target="uncannyValley" file="the.txt" path="home"/>
+  </goals>
+  
+  <missionStart>loadConditionalActions:Actions/ircMessages2.xml</missionStart>
+  <nextMission IsSilent="true">Missions/music3.xml</nextMission>
+
+  <email>
+    <sender>noone</sender>
+    <subject>no</subject>
+    <body>you arent suppoused to see this
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

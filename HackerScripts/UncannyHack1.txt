@@ -1,0 +1,35 @@
+config playerComp [SOURCE_COMP] 0 $#%#$
+connect $#%#$
+
+delay 7.3 $#%#$
+
+writel YOU THINK YOU CAN GET AWAY WITH THIS? $#%#$
+hideTerminal $#%#$
+delay 0.2 $#%#$
+showTerminal $#%#$
+
+delay 7.1 $#%#$
+
+writel STOP THIS RIGHT NOW $#%#$
+hideDisplay $#%#$
+delay 0.2 $#%#$
+showDisplay $#%#$
+
+delay 7.1 $#%#$
+
+writel YOU'LL REGRET THIS $#%#$
+hideNetMap $#%#$
+delay 0.2 $#%#$
+showNetMap $#%#$
+
+delay 7.1 $#%#$
+
+hideRam $#%#$
+
+delay 7.3 $#%#$
+
+showRam $#%#$
+
+delay 7.3 $#%#$
+
+writel YOU SHOULD'VE STOPPED

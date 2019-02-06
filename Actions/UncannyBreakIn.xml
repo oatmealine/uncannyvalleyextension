@@ -1,0 +1,13 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/WakeUpThePresident.ogg"/>
+        <SwitchToTheme ThemePathOrName="HackerGreen" FlickerInDuration="2.0" DelayHost="friendgroup" Delay="12.65" />
+        <SwitchToTheme ThemePathOrName="Themes/Panictheme.xml" FlickerInDuration="1.9" DelayHost="friendgroup" Delay="29.1" />
+        <StartScreenBleedEffect AlertTitle="WHAT DO YOU THINK YOU'RE DOING" CompleteAction="Actions/TimeRunOut.xml" TotalDurationSeconds="103.5" DelayHost="friendgroup" Delay="30.0">Goal: Disconnect and obey the law
+Stop this and return back to regular work
+Or else.</StartScreenBleedEffect>
+        <LaunchHackScript Filepath="HackerScripts/UncannyHack1.txt" DelayHost="friendgroup" Delay="30.0" SourceComp="uncannycomp1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+        <LaunchHackScript Filepath="HackerScripts/UncannyHack2.txt" DelayHost="friendgroup" Delay="74.0" SourceComp="uncannycomp1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+        <LaunchHackScript Filepath="HackerScripts/UncannyHack3.txt" DelayHost="friendgroup" Delay="104.0" SourceComp="uncannycomp1" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    </Instantly>
+</ConditionalActions>

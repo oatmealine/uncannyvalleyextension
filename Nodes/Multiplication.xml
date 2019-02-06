@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Multiplication" name="Multiplication" type="3" security="2" ip="111.34.51.3">
+
+<firewall level="8" solution="MULTIPLY" additionalTime="0.1"/>
+
+  <portsForCrack val="0" />
+  <ports>22, 21, 80</ports>
+  <file path="home" name="offset2.txt">___.__.__._
+__6._4._4.2
+Just apply the same, but change the algorithm. -UncannyValley</file>
+
+  <file path="home" name="SSHCrack.exe">#SSH_CRACK#</file> 
+
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="snariumProxy" name="Snarium's Proxy" ip="178.32.83.55" security="1" allowsDefaultBootModule="false" type="1" icon="DLCPC1">
+
+<account username="snarium" password="oatmealmyfavorite" type="ADMIN" />
+
+<ports>21, 22, 25, 80, 6881</ports>
+
+<proxy time="0.5" />
+<portsForCrack val="1" />
+<trace time="-1" />
+
+<file path="log/transfer" name="!!Transfer.log">TranSferEnd(tm) - putting the end to all transfer difficulties!
+
+Starting Transfer Process.....done
+Starting SFTP Server....done
+Connecting to TranSferEnd server..done
+  Accepting SFTP connections at 178.32.83.55:22
+Generating ID....done
+
+ID: 8362594
+PASSWORD: 62847
+
+Enter this into the PC you want to transfer files from.
+
+Got reply!
+Accep#BINARY#COrrupB)]
+
+Took 71 minutes 12 seconds.
+Unpacking files in /.....done
+
+            --------
+IF YOU LIKE TRANSFEREND'S SERVICES,
+rate us 5 stars at the Windows App 
+store and leave us a positive revi-
+ew! We're trying our best to impro-
+ve this service, and we'd love to 
+       hear your opinion!
+            --------
+Operation ended with code 0
+</file>
+<file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+<dlink target="snariumCurrPC" />
+<encryptedFile path="home" name="FTPSprint.dec" extension=".exe" ip="166.72.88.2" header="SnariumsSolar-Station">#FTP_FAST_EXE#</encryptedFile>
+</Computer>

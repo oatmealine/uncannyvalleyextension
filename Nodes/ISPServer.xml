@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" name="Bugnet ISP Services" security="1" allowsDefaultBootModule="false" type="1" icon="DLCPC1">
+<ports>21, 22, 25, 80, 6881</ports>
+
+<proxy time="1.0" />
+<portsForCrack val="2" />
+<trace time="-1" />
+
+<ispSystem />
+
+</Computer>

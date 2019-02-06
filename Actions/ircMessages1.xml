@@ -1,0 +1,15 @@
+<ConditionalActions>
+    <Instantly>
+        <RunFunction FunctionName="playCustomSong:Music/DecadeDance.ogg"/>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="3.0">hm</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="3.1">What's wrong?</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="3.2">snooping around in the logs of of snarium's proxy, i think i found a lead</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="3.3">theres a folder named "transfer", inside it is a log</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="3.4">Oh shit, never thought to even look at the logs</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="3.5">that log is corrupted, however</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="3.6">Hmm.</AddIRCMessage>
+        <AddIRCMessage Author="Timed" TargetComp="friendgroup" Delay="3.7">Well, tranferend leaves these logs on both PC's, so if we can access the other PC...</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="3.8">yeah, this log is kinda useless</AddIRCMessage>
+        <AddIRCMessage Author="rela-y" TargetComp="friendgroup" Delay="4.0">oh well</AddIRCMessage>
+    </Instantly>
+</ConditionalActions>

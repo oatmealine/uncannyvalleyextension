@@ -1,0 +1,58 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+
+connect $#%#$
+
+openPort 21 $#%#$
+delay 1 $#%#$
+openPort 80 $#%#$
+delay 1 $#%#$
+
+clearTerminal $#%#$
+
+write hey $#%#$
+
+delay 3 $#%#$
+
+hideNetMap $#%#$
+delay 1 $#%#$
+hideDisplay $#%#$
+
+writel_silent $#%#$
+
+delay 1 $#%#$
+
+writel who are you? $#%#$
+delay 4 $#%#$
+writel are you a friend of snarium? $#%#$
+delay 4 $#%#$
+writel give me a minute $#%#$
+
+delay 3 $#%#$
+
+openCDTray $#%#$
+forkbomb $#%#$
+makeFile_silent home forkbomb-log.txt Started forkbomb - check results in /log $#%#$
+delay 1 $#%#$
+writel have fun :) $#%#$
+closeCDTray $#%#$
+
+delay 8 $#%#$
+writel youre quite good at this, eh? $#%#$
+delay 3 $#%#$
+writel i looked around in your pc for a bit $#%#$
+delay 2 $#%#$
+writel dont be scared, is all good now $#%#$
+delay 3 $#%#$
+writel ill make you an account in our friend group irc. ill explain everything there $#%#$
+delay 2 $#%#$
+writel 187.55.2.6 $#%#$
+
+delay 1 $#%#$
+
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+
+delay 1 $#%#$
+
+disconnect $#%#$

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="uncannyendpoint" name="UncannyValley Endpoint" type="empty" ip="666.136.204.6">
+
+  <portsForCrack val="5" />
+  <ports>22, 80, 6881, 554, 21, 443, 211</ports>
+  <trace time="-1" />
+  
+  <file path="home" name="agreement.txt">Welcome to UncannyValley. We are a cult/group dedicated to purging any information around us and moving forward as we do.
+By downloading this file, you agree to everything that might happen to you, your online presence, your computer and your body. Anything that happens past your download is your fault and your fault only.
+When you download this file, we will enter you into our cult. Because you read this file and know this information, you must join our cult, or else you will be traced and stalked, then murdered.
+Do NOT try to sneak any information about us to the outside world. You WILL be killed.
+-UncannyValley</file>
+
+<LogoDaemon Name="Uncanny Valley" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="Logo.png">Uncanny Valley</LogoDaemon>
+
+</Computer>

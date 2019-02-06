@@ -1,0 +1,135 @@
+config playerComp [SOURCE_COMP] 0 $#%#$
+
+hideRam $#%#$
+
+delay 0.1 $#%#$
+
+hideNetMap $#%#$
+
+delay 0.1 $#%#$
+
+showRam $#%#$
+hideDisplay $#%#$
+
+delay 0.1 $#%#$
+
+showNetMap $#%#$
+hideTerminal $#%#$
+
+delay 0.1 $#%#$
+
+showDisplay $#%#$
+
+delay 0.1 $#%#$
+
+showTerminal $#%#$
+
+delay 6.8 $#%#$
+
+hideTerminal $#%#$
+
+delay 0.1 $#%#$
+
+hideDisplay $#%#$
+
+delay 0.1 $#%#$
+
+showTerminal $#%#$
+hideNetMap $#%#$
+
+delay 0.1 $#%#$
+
+showDisplay $#%#$
+hideRam $#%#$
+
+delay 0.1 $#%#$
+
+showNetMap $#%#$
+
+delay 0.1 $#%#$
+
+showRam $#%#$
+
+delay 6.8 $#%#$
+
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideRam $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showRam $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideTerminal $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showTerminal $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideNetMap $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showNetMap $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideTerminal $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showTerminal $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+hideNetMap $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showDisplay $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+showNetMap $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
+writel GIVE IN YOUR SOUL $#%#$
+delay 0.91 $#%#$
