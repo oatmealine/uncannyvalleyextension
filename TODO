@@ -2,7 +2,7 @@ Todo:
   Cut, add and change music:
     ✔ Disco Inferno (remove end speech) @done(19-02-06 08:09)
     ✔ Switch Complete Domination and Satanic Rites in the playthrough, delay second song until UV "hack" is complete @done(19-02-06 08:09)
-    ☐ Compress the music @started(19-02-06 17:30)
+    ✔ Compress the music @started(19-02-06 17:30) @done(19-02-06 19:52) @lasted(2h22m40s)
   ✔ Fix ISP Server to be hackable at any point @started(19-02-06 08:20) @done(19-02-06 08:22) @lasted(2m4s)
   ✔ Give player CSEC flag once able to hack the ISP server @done(19-02-06 08:28)
   ✔ Add logo to UV.net @done(19-02-06 08:11)
@@ -11,3 +11,5 @@ Todo:
     ☐ Put that table into a .txt file and on some PC
   ✔ Make a "player-has-exe-at-point" table @started(19-02-06 08:16) @done(19-02-06 08:20) @lasted(4m8s)
   ✔ Add UV logo daemons on each UV-based server @started(19-02-06 08:14) @done(19-02-06 08:16) @lasted(2m4s)
+  ✔ Credits server @started(19-02-06 19:55) @done(19-02-06 20:22) @lasted(27m15s)
+  ☐ Publish extension preview on Steam Workshop

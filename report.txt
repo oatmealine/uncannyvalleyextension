@@ -1,0 +1,172 @@
+Errors Found. Writing report to Extensions/uncannyvalleyextension/report.txt
+
+Load Error:
+System.FormatException 
+ 
+COMPUTER LOAD ERROR:
+Error loading computer "Extensions/uncannyvalleyextension/Nodes/credits.xml" 
+Error: XmlException - a name did not start with a legal character 32 ( )  Line 14, position 15. 
+ 
+Source : Hacknet 
+ 
+System.FormatException: COMPUTER LOAD ERROR:
+Error loading computer "Extensions/uncannyvalleyextension/Nodes/credits.xml" 
+Error: XmlException - a name did not start with a legal character 32 ( )  Line 14, position 15.
+---> System.Xml.XmlException: a name did not start with a legal character 32 ( )  Line 14,
+position 15.
+
+  at Mono.Xml2.XmlTextReader.ReadName (System.String& prefix, System.String& localName)
+  [0x00000] in <filename unknown>:0
+
+  at Mono.Xml2.XmlTextReader.ReadName () [0x00000] in <filename unknown>:0 
+  at Mono.Xml2.XmlTextReader.ReadEntityReference (Boolean ignoreEntityReferences)
+  [0x00000] in <filename unknown>:0
+
+  at Mono.Xml2.XmlTextReader.ReadReference (Boolean ignoreEntityReferences) [0x00000] in
+  <filename unknown>:0
+
+  at Mono.Xml2.XmlTextReader.ReadText (Boolean notWhitespace) [0x00000] in <filename
+  unknown>:0
+
+  at Mono.Xml2.XmlTextReader.ReadWhitespace () [0x00000] in <filename unknown>:0 
+  at Mono.Xml2.XmlTextReader.ReadContent () [0x00000] in <filename unknown>:0 
+  at Mono.Xml2.XmlTextReader.Read () [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlTextReader.Read () [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlReader.ReadStartElement () [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlReader.ReadElementContentAsString () [0x00000] in <filename unknown>:0 
+  at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean
+  preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+  
+
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
+
+  --- End of inner exception stack trace ---
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Utils.ActOnAllFilesRevursivley (System.String foldername, System.Action`1
+  FileAction) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
+  (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename
+  unknown>:0
+
+  at Hacknet.OS.LoadContent () [0x00000] in <filename unknown>:0 
+  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen, Nullable`1
+  controllingPlayer) [0x00000] in <filename unknown>:0
+
+  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen) [0x00000] in <filename
+  unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.SetupOSForTests (System.String ActiveExtensionFoldername,
+  Hacknet.ScreenManager screenMan) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime (Hacknet.ScreenManager screenMan,
+  System.String path, System.Int32& errorsAdded) [0x00000] in <filename unknown>:0
+ 
+Inner : --------------- 
+ 
+System.Xml.XmlException  
+      
+    a name did not start with a legal character 32 ( )  Line 14, position 15.  
+      
+    Source : System.Xml  
+      
+    System.Xml.XmlException: a name did not start with a legal character 32 ( )  Line 14, position
+    
+
+    15. 
+     
+      at Mono.Xml2.XmlTextReader.ReadName (System.String& prefix, System.String& localName) 
+      [0x00000] in <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadName () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.ReadEntityReference (Boolean ignoreEntityReferences) 
+      [0x00000] in <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadReference (Boolean ignoreEntityReferences) [0x00000] in
+
+      <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadText (Boolean notWhitespace) [0x00000] in <filename 
+      unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadWhitespace () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.ReadContent () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.Read () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlTextReader.Read () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlReader.ReadStartElement () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlReader.ReadElementContentAsString () [0x00000] in <filename unknown>:0
+
+      at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean 
+      preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0 
+     
+      at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+      
+       
+     
+      at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+
+      (System.String filename) [0x00000] in <filename unknown>:0 
+      
+      
+      
+      at Mono.Xml2.XmlTextReader.ReadName (System.String& prefix, System.String& localName) 
+      [0x00000] in <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadName () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.ReadEntityReference (Boolean ignoreEntityReferences) 
+      [0x00000] in <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadReference (Boolean ignoreEntityReferences) [0x00000] in
+
+      <filename unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadText (Boolean notWhitespace) [0x00000] in <filename 
+      unknown>:0 
+     
+      at Mono.Xml2.XmlTextReader.ReadWhitespace () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.ReadContent () [0x00000] in <filename unknown>:0  
+      at Mono.Xml2.XmlTextReader.Read () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlTextReader.Read () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlReader.ReadStartElement () [0x00000] in <filename unknown>:0  
+      at System.Xml.XmlReader.ReadElementContentAsString () [0x00000] in <filename unknown>:0
+
+      at Hacknet.ComputerLoader.loadComputer (System.String filename, Boolean 
+      preventAddingToNetmap, Boolean preventInitDaemons) [0x00000] in <filename unknown>:0 
+     
+      at Hacknet.Computer.loadFromFile (System.String filename) [0x00000] in <filename unknown>:0
+      
+       
+     
+      at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+
+      (System.String filename) [0x00000] in <filename unknown>:0 
+ 
+ 
+ 
+  at Hacknet.Extensions.ExtensionLoader+<>c__DisplayClass2.<LoadNewExtensionSession>b__0
+  (System.String filename) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Utils.ActOnAllFilesRevursivley (System.String foldername, System.Action`1
+  FileAction) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession
+  (Hacknet.Extensions.ExtensionInfo info, System.Object os_obj) [0x00000] in <filename
+  unknown>:0
+
+  at Hacknet.OS.LoadContent () [0x00000] in <filename unknown>:0 
+  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen, Nullable`1
+  controllingPlayer) [0x00000] in <filename unknown>:0
+
+  at Hacknet.ScreenManager.AddScreen (Hacknet.GameScreen screen) [0x00000] in <filename
+  unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.SetupOSForTests (System.String ActiveExtensionFoldername,
+  Hacknet.ScreenManager screenMan) [0x00000] in <filename unknown>:0
+
+  at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime (Hacknet.ScreenManager screenMan,
+  System.String path, System.Int32& errorsAdded) [0x00000] in <filename unknown>:0

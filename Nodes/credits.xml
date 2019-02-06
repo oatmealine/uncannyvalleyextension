@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits" name="Credits Server" type="3" security="2">
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 80</ports>
+  <CreditsDaemon Title="UncannyValley Ending Credits" ButtonText="Roll it" ConditionalActionSetToRunOnButtonPressPath="Actions/Credits.xml"/>
+
+  <file path="home" name="CreditsData.txt">%--- Uncanny Valley ---
+
+^Coding and Sanity Loss
+TheFox
+
+^Story Ideas and Planning
+TheFox
+Matu
+
+%Music
+^Snarium (Ch. 1)
+Chromacle - Interlude
+Sonic - Decade Dance
+Scattle - Bloodline
+^Uncanny Valley (Ch. 2)
+PERTURBATOR - Satanic Rites
+PERTURBATOR Ft. Carpenter Brut - Complete Domination
+PERTURBATOR - Disco Inferno
+Carpenter Brut - Wake Up The President
+
+^Credits (This!)
+PERTURBATOR - Uncanny Valley
+
+%Thank you for playing!
+I really appreciate you
+playing this terrible
+extension held together
+by duct tape.
+
+Hopefully you actually liked
+it!
+
+^-Fox
+</file>
+  <file path="home" name="note.txt">There's nothing on this server. No really, nothing. You can go away now.</file>
+
+</Computer>
+

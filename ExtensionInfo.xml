@@ -13,8 +13,8 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>Uncanny Valley</Name>
-	<AllowSaves>false</AllowSaves>
+	<Name>Uncanny Valley PREVIEW</Name>
+	<AllowSaves>true</AllowSaves>
   
   <!-- a comma separated list of notes that start out as being visible-->
   <StartingVisibleNodes>PlayerComp</StartingVisibleNodes>
@@ -29,7 +29,7 @@
 
   <!-- Description that appears within Hacknet -->
   <Description>Your friend, Snarium, has mysteriously dissappeared.
-  Your goal is to find out what happened to him, and most importantly, save him.</Description>
+Your goal is to find out what happened to him, and most importantly, save him.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>
@@ -37,7 +37,7 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>true</HasIntroStartup>
   
   <!--<StartingTheme>HacknetMint</StartingTheme>-->
   <StartingTheme>Themes/LaserRoom.xml</StartingTheme>
